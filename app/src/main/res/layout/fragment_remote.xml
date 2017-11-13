@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_pink"
+    android:padding="30dp"
+    android:scrollbars="none">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:columnCount="2">
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:text="BUTTON"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:text="DESCRIPTION"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="POWER"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Switch on/off the LED TV when at standby mode."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="FREEZE"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Freeze picture."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="S.MODE"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Sound mode selection."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="P.MODE"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Picture effect selection."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="MUTE"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Press the button to turn volume off/on."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="0-9"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Press to select the TV program you want to enter or input password."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="MENU"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Open the main menu. Press again or use EXIT to close"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="SOURCE"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Available source selection."
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_marginRight="20dp"
+            android:text="VOL+/VOL-"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Press to turn up or down the sound volume level."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="PA+/PA-"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Press to directly change the channel up or down."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="SETTING"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Press to open settings."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="APP"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Press to open App Screen."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="GOTO"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Press to jump to a time line on audio/video track."
+            android:textSize="24sp" />
+
+        <ImageView android:src="@drawable/mouse_ic" />
+
+        <TextView
+            android:text="Press to turn on/off the mouse."
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical"/>
+
+        <ImageView android:src="@drawable/ie_icon" />
+
+        <TextView
+            android:text="Press to open browser."
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView android:src="@drawable/home_icon" />
+
+        <TextView
+            android:text="Press to go to home screen."
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView android:src="@drawable/dpad_icon" />
+
+        <TextView
+            android:text="Press to select or adjust the desired item on TV menu."
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:text="OK"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Press to confirm or enter sub menus."
+            android:textSize="24sp" />
+
+        <ImageView android:src="@drawable/timer_icon" />
+
+        <TextView
+            android:text="Press to set sleep timer."
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:text="YOUTUBE"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Opens YouTube."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="RAM"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Press to go to RAM screen to free some space."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="FACEBOOK"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Opens Facebook."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="GMAIL"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Opens Gmail."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="SKYPE"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Opens Skype."
+            android:textSize="24sp" />
+
+        <ImageView android:src="@drawable/return_icon" />
+
+        <TextView
+            android:text="Press to go back/return."
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView android:src="@drawable/reverse_icon" />
+
+        <TextView
+            android:text="Press to reverse the video/audio."
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView android:src="@drawable/play_icon" />
+
+        <TextView
+            android:text="Press to play/pause the video/audio."
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView android:src="@drawable/forward_icon" />
+
+        <TextView
+            android:text="Press to forward the video/audio."
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView android:src="@drawable/previous_icon" />
+
+        <TextView
+            android:text="Press to go to the previous video/audio."
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView android:src="@drawable/stop_icon" />
+
+        <TextView
+            android:text="Press to stop the video/audio."
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical" />
+
+        <ImageView android:src="@drawable/next_icon" />
+
+        <TextView
+            android:text="Press to go to next video/audio."
+            android:textSize="24sp"
+            android:layout_gravity="center_vertical" />
+
+        <TextView
+            android:text="VIDEO DOWNLOAD"
+            android:textSize="24sp"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:text="Opens Video Downloader."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="USB"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Press to open externally connected storage."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="VIDEO PLAYER"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Opens Video Player."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="S.TITLE"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Press to turn on/off the subtitles."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="REFRESH"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Press to refresh the web page."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="ZOOM"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Press to display and select available aspect modes."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="SCREEN MIRROR"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Pressing this button should open screen mirroring screen."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="WIFI"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Pressing this button should open network screen."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="ECO"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Eco function to be added."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="PICTURE"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Pressing this button should open Picture screen inside media."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="VIDEO"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Pressing this button should open Video screen inside media."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="MUSIC"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Pressing this button should open Music screen inside media."
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="HELP"
+            android:textSize="24sp" />
+
+        <TextView
+            android:text="Pressing this button should open Electronic Manual of our TV which we will provide you."
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_marginTop="15dp"
+            android:text="*Note - YouTube, Facebook, Gmail, Skype, Video Download, Video Player, RAM works only when it is pre-installed inside the TV."
+            android:textSize="24sp"
+            android:layout_columnSpan="2"/>
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="*Note - Mouse function may not work in some screens. Please deselect the mouse and use arrow keys to scroll up and down."
+            android:textSize="24sp"
+            android:layout_columnSpan="2" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="*Note - The button description above is just for reference. The remote keys may vary from model to model."
+            android:textSize="24sp"
+            android:layout_columnSpan="2" />
+    </GridLayout>
+
+</ScrollView>
